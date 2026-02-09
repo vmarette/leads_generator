@@ -1,0 +1,40 @@
+# Credentials et configuration sensible
+.mcp.json
+*.key
+*.pem
+.env
+.env.local
+
+# Données et logs
+*.log
+logs/
+data/
+leads.csv
+*.db
+*.sqlite
+
+# Fichiers temporaires
+.DS_Store
+*.tmp
+*.temp
+.cache/
+tmp/
+
+# n8n
+n8n-data/
+.n8n/
+
+# Node modules si jamais utilisé
+node_modules/
+package-lock.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backups
+*.backup
+*.bak

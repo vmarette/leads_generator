@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "n8n-mcp": {
+      "command": "npx",
+      "args": ["-y", "n8n-mcp"],
+      "env": {
+        "MCP_MODE": "stdio",
+        "LOG_LEVEL": "info",
+        "N8N_API_URL": "https://votre-instance.n8n.cloud",
+        "N8N_API_KEY": "votre-api-key-ici"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
